@@ -1,0 +1,159 @@
+
+				/*kala2016*/
+
+body{  overflow-x:hidden;font:400 14px/1.5 "Open Sans","Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei",sans-serif; color: rgb(51,51,51);}
+ul li { list-style: outside none none; margin: 0px; padding: 0px; }
+a { text-decoration: none; color: rgb(51,51,51); }
+a:hover { color: rgb(255, 102, 0); text-decoration: none; }
+.forms-register {background: rgb(255,255,255);}
+/*全局变量*/
+/*========================================*/
+/*Header*/
+/*========================================*/
+header .navbar-default { margin: -1px;}
+header .navbar-default { background: rgb(255, 255, 255) none repeat scroll 0% 0%; z-index: 99; border: 0px solid transparent; border-radius: 10px; }
+header .navbar-default a, header .navbar-default label { outline: 0px none; }
+header .navbar-default .header-main { box-shadow: none; height:80px;}
+header .navbar-default .header-main .navbar-header img { padding: 14px 0px;}
+header .navbar-default .header-main .header-wrap { position: relative; }
+header .navbar-default .header-main .nav-left-login { float: none; display: inline-block; position: absolute; top: -4px; right: 30px; }
+header .navbar-default .header-main .nav-left-login a.qb { margin-top: 28px; width: 60px; margin-right: 5px; border-radius: 16px; border: 0px none; cursor: pointer; padding: 6px 12px; font-size: 13px; color: rgb(255, 255, 255); }
+header .navbar-default .header-main .nav-left-login a.qb.btn-default { background: rgb(94, 190, 33) none repeat scroll 0% 0%; }
+header .navbar-default .header-main a.qb.btn-primary { background: rgb(221, 221, 221) none repeat scroll 0% 0%; color:rgb(51, 51,51);}
+header .navbar-default .header-main .user-icon { height: 35px; position: absolute; top: 20px; right: 30px; width: 35px; }
+header .navbar-default .header-main .user-icon a { display: block; border: 0px none; padding: 0px; text-indent: -9999px; height: 35px; background: transparent url("../img/header/users.png") no-repeat scroll center center / 35px auto; }
+header .navbar-header .success-login{ position: absolute; top:3px; right:40px;z-index:50;}
+header .drop-list{ position:absolute;right:32px; margin-top: -10px;z-index:50;background:url("../img/header/e-2.png")no-repeat; width:115px; height:80px;}
+header .drop-list li {text-align: center; width:100px; height:40px; margin-top: 5px;}
+header .drop-list hr{margin:0px;}
+
+header .navbar-title{ line-height: 74px; font-size: 22px; }
+.navbar { position: relative; min-height: 50px; margin-bottom: 20px; border: 0px solid transparent;margin-bottom: 0px; list-style: outside none none; }
+.navbar-header .line{  line-height: 12px; float:left; font-size: 22px; color: rgb(119,119,119); padding-left: 15px; width: 0px; height: 40px; margin: 18px 0px 0px 15px; border-width: 0px 0px 0px 1px; border-style: none none none solid; border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.nav-logo{ float:left; margin-left:15px;}
+/*Banner*/
+/*========================================*/
+.home .banner {height: 173px; background: rgba(247, 247, 247, 0.9) url("../img/banner/news-baner.png") no-repeat scroll center bottom / cover; border-top:1px solid #dddddd;}
+/*user agreenment*/
+/*========================================*/
+.home #artical { padding:0px; margin: 18px 0px 20px 0px; background: rgb(242, 242, 242) none repeat scroll 0% 0%;}
+.home #artical .artical_Partner {padding-bottom:2.1rem; background: rgb(255, 255, 255);}
+.home #artical .a-head{margin:0px;padding:0px; }
+.home #artical .tab{ padding-left:0px; line-height: 40px; border-bottom:1px solid #dddddd;}
+.home #artical .text-left { font-size: 18px;color: #333333; margin:0px; border-left: 3px solid #5EBE21; padding-left:10px;}
+    	/*Footer*/
+/*========================================*/
+.home footer { display:line-block; color: #666666;outline: 0px none; cursor: pointer;transition: all 0.3s ease-out 0s;text-decoration: none;background: rgb(255, 255, 255) none repeat scroll 0% 0%; overflow:hidden;}
+.home footer p { font-size: 14px;}
+.footer-box {  margin: 0px auto; text-align: center; padding-top:20px; display: block;}
+.footer .f-connect{ font-weight: 500; font-size: 15px; }
+  		/*Form*/
+/*========================================*/
+.forms-register {width:32%; margin:0 auto; border-radius: 5px;}
+.forms-register .forms-layout { padding:20px 40px; font-size: 16px;}
+.forms-register .logo { text-align: center;}
+.forms-register input{ padding-left:2.5rem;}
+.form-group img{ float: left; margin:-26px 0px 0px 5px;}
+.checkbox label { font-size:15px; line-height:16px; width: 70.66%; padding-left:0px;}
+.checkbox .f-left { margin-left:20px;}
+.checkbox .f-left a{ color: rgb(94,190,33);}
+.checkbox .text-right { text-align:right; }
+.forms-register .btn {width:100%;} 
+/* Desktops and laptops ----------- */
+ @media only screen
+ and (min-width : 1224px) {
+ 	/*user agreenment*/
+/*========================================*/
+.agreenment-list {padding-bottom:52px; cursor:text;}
+.agreenment-list .list-inline {margin:20px 20px 0px 20px;}
+.agreenment-list .list-inline p{font-size: 16px;}
+.agreenment-list .list-inline .lead{color: #51BE21; font-weight:500;font-size: 20px; }
+  	/*Footer*/
+/*========================================*/
+.footer .f-connect{font-size: 16px; }
+/*Form*/
+/*========================================*/
+.forms-register {width:32%;}
+.checkbox .f-left { margin-left:20px;}   
+
+}
+
+ /* pc (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1224px)
+{
+	 	/*user agreenment*/
+/*========================================*/
+.agreenment-list {padding-bottom:52px; cursor:text;}
+.agreenment-list .list-inline {margin:20px 20px 0px 20px;}
+.agreenment-list .list-inline p{font-size: 16px;}
+.agreenment-list .list-inline .lead{color: #51BE21; font-weight:500;font-size: 20px; }
+ 	/*Footer*/
+/*========================================*/
+.footer .f-connect{font-size: 16px; }
+/*Form*/
+/*========================================*/
+.forms-register {width:35%;}
+.checkbox .f-left {margin-left:20px;}
+}
+
+     /* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+	 	/*user agreenment*/
+/*========================================*/
+.agreenment-list {padding-bottom:52px; cursor:text;}
+.agreenment-list .list-inline {margin:20px 20px 0px 20px;}
+.agreenment-list .list-inline p{font-size: 16px;}
+.agreenment-list .list-inline .lead{color: #51BE21; font-weight:500;font-size: 20px; }
+/*Form*/
+/*========================================*/
+.forms-register {width:40%;}
+.checkbox .f-left { margin-left:20px;}
+
+}
+
+/* 768px通用 (landscape) ----------- */
+   @media only screen
+    and (max-width : 767px) {
+
+    	/*Header*/
+/*========================================*/
+header .navbar-default { margin: -1px;}
+header .navbar-default { background: rgb(255, 255, 255) none repeat scroll 0% 0%; z-index: 99; border: 0px solid transparent; border-radius: 10px; }
+header .navbar-default a, header .navbar-default label { outline: 0px none; }
+header .navbar-default .header-main { box-shadow: none; height:66px;}
+header .navbar-default .header-main .navbar-title img { padding: 14px 0px 0px 14px; width: 110px;}
+header .navbar-default .header-main .header-wrap { position: relative; }
+header .navbar-title{ line-height: 65px; font-size: 1.6rem; }
+header .navbar-default .header-main .nav-left-login { float: none; display: inline-block; position: absolute; top: -4px; right: 2px; }
+header .navbar-default .header-main .nav-left-login a.qb { margin-top: 28px; width: 60px; margin-right: 5px; border-radius: 13px; border: 0px none; cursor: pointer; padding: 6px 12px; font-size: 13px; color: rgb(255, 255, 255); }
+header .navbar-default .header-main .nav-left-login a.qb.btn-default { background: rgb(94, 190, 33) none repeat scroll 0% 0%; }
+header .navbar-default .header-main a.qb.btn-primary { background: rgb(221, 221, 221) none repeat scroll 0% 0%; color:rgb(51, 51,51);}
+header .navbar-default .header-main .user-icon { height: 35px; position: absolute; top: 15px; right: 15px; width: 35px; }
+header .navbar-default .header-main .user-icon a { display: block; border: 0px none; padding: 0px; text-indent: -9999px; height: 33px; background: transparent url("../img/header/users.png") no-repeat scroll center center / 26px auto; }
+header .navbar-header .success-login img{width:35px; height:62px;}
+header .navbar-header .success-login{position: absolute; top:3px; right:15px; z-index:50;}
+header .drop-list{right:8px;}
+.navbar { position: relative; min-height: 50px; margin-bottom: 20px; border: 0px solid transparent;margin-bottom: 0px; list-style: outside none none; }
+.navbar-header .line{ line-height: 12px; float:left; font-size: 22px; color: rgb(119,119,119); padding-left: 15px; width: 0px; height: 30px; margin: 18px 0px 0px 15px; border-width: 0px 0px 0px 1px; border-style: none none none solid; border-color: -moz-use-text-color -moz-use-text-color -moz-use-text-color rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+.nav-logo{ float:left; margin-left:15px;}
+    	 	/*user agreenment*/
+/*========================================*/
+.agreenment-list {padding-bottom:52px; cursor:text;}
+.agreenment-list .list-inline {margin:20px 20px 0px 20px;}
+.agreenment-list .list-inline p{font-size: 16px;}
+.agreenment-list .list-inline .lead{color: #51BE21; font-weight:500;font-size: 20px; }
+  /*Footer*/
+/*========================================*/
+.footer .f-connect{ font-size: 15px; }
+.home footer p { font-size: 13px;}
+/*Form*/
+/*========================================*/
+.forms-register {width:95%;}
+.checkbox .f-left {margin-left: 19px;} 
+}   
+
+
